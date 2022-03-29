@@ -1,5 +1,5 @@
 body {
-  background-color: #7eda7e;
+  background-color: #e1e2e1;
 }
 
 p {
@@ -21,7 +21,7 @@ figure {
   margin: auto;
 }
 .img_topo {
-  width: 100%;
+  width: 75%;
 }
 
 .img_corpo {
