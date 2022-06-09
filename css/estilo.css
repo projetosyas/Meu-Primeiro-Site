@@ -45,14 +45,20 @@ body {
 }
 
 .container a:visited, .container a:link{
-  color: aqua;
+  color: rgb(18, 224, 111);
   text-decoration: none;
   font-weight: bolder;
 }
 
 .container a:hover{
-  background-color: aqua;
+  background-color: rgb(0, 0, 0);
   padding: o,5%;
+}
+
+.container a:active{
+  color: blacks;
+
+
 }
 
 
@@ -83,7 +89,8 @@ figure {
 }
 
 .img_topo {
-  width: 60%;
+  width: 50%;
+  margin-top: 2%;
 }
 
 .img_corpo {
@@ -122,6 +129,7 @@ h3{
 video {
   align-items: center;
   width: 379px;
+ 
 }
 
 img{
