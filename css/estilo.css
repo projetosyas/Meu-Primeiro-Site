@@ -45,13 +45,13 @@ body {
 }
 
 .container a:visited, .container a:link{
-  color: rgb(18, 224, 111);
+  color: rgb(16, 199, 98);
   text-decoration: none;
   font-weight: bolder;
 }
 
 .container a:hover{
-  background-color: rgb(0, 0, 0);
+  background-color: #FFDEAD;
   padding: o,5%;
 }
 
@@ -92,7 +92,7 @@ figure {
 }
 
 .img_topo {
-  width: 50%;
+  width: 51%;
   margin-top: 2%;
 }
 
@@ -180,7 +180,7 @@ h3{
 
 video {
   align-items: center;
-  width: 200px;
+  width: 380px;
  
 }
 
