@@ -1,3 +1,8 @@
+@font-face {
+  font-family: KaushanScript-Regular;
+  src: url('../fonts/KaushanScript-Regular.ttf');
+}
+
 html{
   scroll-behavior: smooth;
 }
@@ -10,6 +15,7 @@ body {
 .menu{
   background-color: rgba(9, 7, 6, 0.3);
    padding: 2%;
+   font-family: 'Playfair Display', serif;
 
 }
 
@@ -64,7 +70,12 @@ body {
 
 
 h1{
+  color: #000000;
+  text-align: center;
+  margin-bottom: 2%;
   font-size: 2em;
+  font-family: 'Playfair Display', serif;
+
 }
 
 p {
@@ -72,14 +83,25 @@ p {
   font-size:  1.5em;
   line-height: 1.3;
   text-align: justify;
-
+  font-family: 'DM Sans', sans-serif;
 
 }
 
-h1,h2{
+h2{
   color: #000000;
   text-align: center;
   margin-bottom: 2%;
+  font-family: 'DM Sans', sans-serif;
+}
+
+h3{
+  color: #000000;
+  font-size:  1.5em;
+  line-height: 1.3;
+  text-align: justify;
+  margin-bottom: 2%;
+  font-family: 'Playfair Display', serif;
+
 }
 
 figure {
@@ -158,7 +180,7 @@ section{
 }
 
 .direita{
-float: right;
+  float: right;
   margin-left: 2%;
   margin-top: 2%;
   margin-bottom: 2%;
@@ -173,18 +195,14 @@ float: right;
   width: 30%;
 }
 
-h3{
+h4{
   text-align: center;
   font-size: 2em;
+  font-family: 'Playfair Display', serif;
 }
 
-video {
-  align-items: center;
-  width: 380px;
- 
+.video{
+  width: 688px;
+  margin: 2em auto;        
 }
 
-img{
-  width: 50%;
-  
-}
