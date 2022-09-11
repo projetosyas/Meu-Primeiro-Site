@@ -7,6 +7,29 @@ html{
   scroll-behavior: smooth;
 }
 
+header{
+  background-color: #7a7873;
+  padding: 2%;
+  font-family: 'Playfair Display', serif;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fixo{
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  top: 0;
+}
+
+.itens_menu li{
+
+  font-size: 1.3em;
+  line-height: 1.5;
+}
+
+
 body {
   background-color: #dad8d8;
 
@@ -33,7 +56,6 @@ body {
 .itens_Menu li{
   display: inline-block
 }
-
 
 .itens_Menu a:visited, .itens_Menu a:link{
   color: #000000;
@@ -147,6 +169,33 @@ footer{
   }
 
   
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+  border: 3px dashed #FF6347;
+  padding: 1.5%;
+  text-align: center;
+  font-family: 'DancingScript-VariableFont_wght',cursive;
+}
+
+td:first-child { 
+  width: 40%;  
+}
+td:first-child + td {  
+  width: 60%; 
+}
+
+th{
+
+  font-size: 1.5em;
+  font-weight: bolder;
+  color: #000000;  
+
+}
+
 footer{
   background-color: rgba(0, 0, 0, 0.3);
   padding: 2%;
@@ -212,6 +261,25 @@ h4{
   margin: 2em auto;        
 }
 
+audio{
+  width: 30%;
+}
+
+audio::-webkit-media-controls-panel{ 
+  background-color:#ada9a9 !important; 
+}
+
+form {
+  box-sizing: border-box;
+  font-family: 'DancingScript-VariableFont_wght',cursive;
+}
+
+.form{
+  background-color: rgba(128,128,128, 0.5) ;
+  padding: 20px;
+  border-radius: 10px;
+}
+
 input[type=text], input[type=tel], input[type=email], select, textarea {
   width: 90%;
   padding: 12px;
@@ -262,8 +330,6 @@ input[type=submit]:hover {
 }
 
 
-
-
 @media screen and (max-width: 450px) {
 
   .col-25, .col-75, input[type=submit] {
@@ -271,3 +337,65 @@ input[type=submit]:hover {
       margin-top: 0;
     }    
 }
+
+.logo{
+  text-align: center;
+  
+}
+
+.img_logo{
+  width: 20%;
+}
+
+
+.banner{
+  margin-top: 40%;
+}
+
+.descer{
+  margin-top: 50%;
+}
+
+
+
+/* Altera configuração quando a tela for maior que 601 px*/
+@media screen and (min-width:601px) {
+
+header{
+  background-color: #7a7873;
+  flex-direction: row;
+  padding: 3%;
+}    
+
+.itens_menu{
+  position: absolute;
+  right: 2%;      
+  width: 70%;
+}
+
+.itens_menu ul li{
+  display: inline;
+  margin-left: 1%;
+}
+.img_logo{
+  width: 30%;
+}
+
+.logo{
+  width: 50%;
+  text-align: left;
+}
+
+.banner{
+  margin-top: 10%;
+}
+
+.descer{
+  margin-top: 10%;
+}
+
+}
+
+
+
+
