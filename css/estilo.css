@@ -273,7 +273,7 @@ figure {
 }
   
 footer{
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.514);
   padding: 2%;
   }
 
@@ -309,7 +309,6 @@ th{
   color: #ffffff;  
 
 }
-
 
 
 footer{
@@ -391,7 +390,7 @@ audio::-webkit-media-controls-panel{
 
 form {
   box-sizing: border-box;
-  font-family: 'DancingScript-VariableFont_wght',cursive;
+  font-family: 'Playfair Display', serif; 
 }
 
 .form{
@@ -406,13 +405,13 @@ input[type=text], input[type=tel], input[type=email], select, textarea {
   border: 1px solid #ccc;
   border-radius: 25px;
   resize: vertical;
-  font-family: 'DancingScript-VariableFont_wght',cursive;    
+  font-family: 'Playfair Display', serif;    
 }
 
 label {
   padding: 12px 12px 12px 0;
   display: inline-block;
-  font-family: 'DancingScript-VariableFont_wght',cursive;    
+  font-family: 'Playfair Display', serif;   
 }
 
 input[type=submit] {
@@ -423,12 +422,12 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
   float: right;
-  font-family: 'DancingScript-VariableFont_wght',cursive;    
+  font-family: 'Playfair Display', serif; 
 }
 
 input[type=submit]:hover {
   background-color: #FF6347 ;
-  font-family: 'DancingScript-VariableFont_wght',cursive;    
+  font-family: 'Playfair Display', serif;   
 }
 
 .col-25 {
